@@ -224,7 +224,6 @@ int main(){
 //    graph.add(2, 0);
     int c=0;
     for(int i=0;i<sc;i++){
-    	cout<<graph.adj[i].size()<<endl;;
     	if(graph.adj[i].size()%2!=0){
     		c++;
 		}
