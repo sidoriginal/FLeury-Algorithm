@@ -48,10 +48,6 @@ class Graph{
 	bool isthere(int find,int inse,vector<int> v){
 		list<int>::iterator i;
         vector<int>::iterator j;
-        for(int h=0;h<v.size();h++){
-//        	cout<<" "<<v[h]<<" ";
-		}
-//		cout<<""<<endl;
         for(i=adj[inse].begin();i!=adj[inse].end();i++){
         	if(find==*i){
         		return true;
