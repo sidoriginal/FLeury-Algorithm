@@ -180,7 +180,7 @@ if(isdone()){
 				break;
 			}
 		}
-		return eulerp(b1);
+		return eulerc(b1);
     }
     }
 };
