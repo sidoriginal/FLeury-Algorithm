@@ -239,10 +239,10 @@ int main(){
     if(choice==1){
     	c=0;
     	    for(int i=0;i<sc;i++){
-    	if(graph.adj[i].size()%2==0){
+    	if(graph.adj[i].size()%2!=0){
     		c=i;
-		}
-    graph.eulerp(i);}}
+		}}
+    graph.eulerp(c);}
     else if(choice==2){
 	if(c>0){
 		cout<<"No euler circuit possible"<<endl;
